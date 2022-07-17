@@ -8,8 +8,8 @@ func main() {
 		arr[i-1] = i
 	}
 
-	for i := range arr {
-		fmt.Println(i)
+	for i, v := range arr {
+		fmt.Println(i, v)
 	}
 	fmt.Printf("%T", arr)
 }
